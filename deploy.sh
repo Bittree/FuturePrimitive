@@ -22,8 +22,5 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
+# for single git repo, not for git submodule!
 git push origin master
-
-cd ..
-
-rm -rf public/
