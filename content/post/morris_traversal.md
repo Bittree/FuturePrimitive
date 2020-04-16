@@ -117,7 +117,7 @@ void reverse(from *TreeNode, to *TreeNode) {
         cur.Right = prev
         prev = cur
         cur = next
-        if cur == to {
+        if prev == to {
             break
         }
     }
